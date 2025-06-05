@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>quistion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <style>
+ 
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <h2>menu</h2>
+      <ul>
+        <li>
+          <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            home
+          </a>
+        </li>
+        <li>
+          <a href="stats.html">
+            <i class="fa-solid fa-square-poll-vertical"></i>
+            scores
+          </a>
+        </li>
+        <li>
+          <a href="devleopers.html">
+            <i class="fa-solid fa-person"></i>
+            devleopers
+          </a>
+        </li>
+        <li>
+          <a href="info.html">
+            <i class="fa-solid fa-circle-info"></i>
+            info
+          </a>
+        </li>
+            <li>
+                    <a href="other-games.html">
+                        <i class="fa-solid fa-gamepad"></i>
+                        other games
+                    </a>
+                </li>
+      </ul>
+        <img  class="img-logo" src="image/logo un 1.jpg" alt=""> 
+    </div>
+
+    <div class="box" id="quiz-box">
+      <form id="quiz-form">
+        <label for="question">
+          <h1 id="question-text">Loading question...</h1>
+        </label>
+        <div id="options">
+         
+        </div>
+        <input type="submit" value="Next" class="input-submit" id="next-btn" />
+       
+      </form>
+
+     
+      <div id="completion-message">
+        <h2> The exam was successfully completed.</h2>
+       
+        <button id="new-player-btn">Add Another Player</button>
+       <a href="stats.html">
+        
+        <button id="view-stats-btn" class="show-scores"> statistics</button>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js">
+
+  
+  </script>
+</body>
+
+</html>
