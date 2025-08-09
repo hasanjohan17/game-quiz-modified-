@@ -6,36 +6,36 @@ window.onload = () => {
 
  const questions = [
       {
-        question: "what is tag for used image in html ",/* السوئال */
-        options: ["<image>", "<alt> ", "<title>", "<img>"], /* الخيارات */
-        correct: "<img>", /* الاجابة الصحيحة */
+        question: "4-2+6×8=?",/* السؤال */
+        options: ["<44", 45 ","64", "50"], /* الخيارات */
+        correct: "50", /* الاجابة الصحيحة */
       },
 
       {
-        question: " what method is used to send data to the server in HTML forms?",
-        options: ["GET", "POST", "PUT", "DELETE"],
-        correct: "POST", /* الاجابة الصحيحة */
+        question: "10/2+5×4-20=?",
+        options: ["25", "5", "10", "15"],
+        correct: "5", /* الاجابة الصحيحة */
       },
     
 
       {
-        question: "what would be the correct way to link an external CSS file in HTML?",
-        options: ["<style>", "<link rel='stylesheet'>", "<css>", "<script>"],
-        correct: "<link rel='stylesheet'>",
+        question: "14-10+60/4+5×2=?",
+        options: ["29", "30", "10", "26"],
+        correct: "29",
 
       },
 
       {
-        question: " to create a hyperlink in HTML, which tag is used?",
-        options: ["<link>", "<a>", "<href>", "<url>"],
-        correct: "<a>", 
+        question: "10-15+19+10/2-6=?",
+        options: ["6", "14", "15", "13"],
+        correct: "13", 
 
       
       },
       {
-        question: " css selector is used to select all elements of a specific type?",
-        options: ["*", "class", "id", "type"],
-        correct: "*", 
+        question: "30-20+15-10+4×2=?",
+        options: ["26", "20", "23", "38"],
+        correct: "23", 
       
       },
      
